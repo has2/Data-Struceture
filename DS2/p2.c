@@ -4,7 +4,7 @@
 #define SWAP(x,y,t) ((t)=(x),(x)=(y),(y)=(t))
 
 void perm(char *list, int i, int n) {
-	int j, temp;
+	int j,temp;
 	if (i == n) {
 		for (j = 0; j <= n; j++)
 			printf("%c", list[j]);
