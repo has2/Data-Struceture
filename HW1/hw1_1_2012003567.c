@@ -35,8 +35,8 @@ int main(int argc, char* argv[])
     
     //list 의 정보를 파일에 출력함
 	for (int i = 0; i < N; i++) {
-        int avg = (list[i].literature+list[i].math+list[i].science)/3;
-		fprintf(fp_output, "%s\t    %d\t\t %d\t   %d    %d\n", list[i].name,list[i].literature, list[i].math, list[i].science,avg);
+        float avg =(float) (list[i].literature+list[i].math+list[i].science)/3;
+		fprintf(fp_output, "%s\t    %d\t\t %d\t   %d    %.2f\n", list[i].name,list[i].literature, list[i].math, list[i].science,avg);
 	}
     
     //메모리를 해제
@@ -44,5 +44,4 @@ int main(int argc, char* argv[])
         free(list[i].name);
     }
     free(list);
-
 }
