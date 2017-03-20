@@ -1,6 +1,0 @@
-Name	Literature	Math	Science	Ave
-Sarah	    96		 90	   80    88.67
-Minsu	    55		 70	   76    67.00
-Nara	    88		 70	   96    84.67
-Smith	    75		 20	   40    45.00
-Mike	    34		 67	   42    47.67
